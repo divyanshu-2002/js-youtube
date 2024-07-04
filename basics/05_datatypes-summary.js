@@ -10,7 +10,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId)
+//console.log(id === anotherId)
 
 //const bigNumber = 23244555525246488n
 
@@ -29,6 +29,28 @@ const myFunction = function(){   // function
 }
 
 
-console.log(typeof scoreValue)
+//console.log(typeof scoreValue)
 
+/**************** Memory_In_JavaScript********************** */
+
+let myYoutubeName = "Divyanshu";
+let anotherName = myYoutubeName;
+
+//console.log(anotherName);
+
+anotherName = "chaiaurcode"
+
+//console.log(myYoutubeName)
+//console.log(anotherName)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "divyanshu@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
 
